@@ -1,4 +1,4 @@
-let [part1, part2, u, p] = [0, [], [ {")":3,"]":57,"}":1197,">":25137} ,{"(":")","[":']','{':'}','<':'>'}],require('./util.js').getData()]
+let [part1, part2, u, p] = [0, [], [ {")":3,"]":57,"}":1197,">":25137} ,{"(":")","[":']','{':'}','<':'>'}],require('../util.js').getData()]
 for(let i = 0; i < p.length; i++){
     for(let [j,m,k] = [0,[],1]; j < p[i].length; j++){
         if(Object.keys(u[1]).indexOf(p[i][j]) != -1) m.push(u[1][p[i][j]])
